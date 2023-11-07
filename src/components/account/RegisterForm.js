@@ -1,6 +1,6 @@
 import React from 'react';
 
-function ContactAddress() {
+function Register() {
   return (
 	  	<div className="col-xl-5 col-lg-6 col-md-8">
                 <div className="contact-info-wrap">
@@ -43,4 +43,4 @@ function ContactAddress() {
   )
 }
 
-export default ContactAddress;
+export default Register;

@@ -1,7 +1,7 @@
 import React from 'react';
-import ContactAddress from './ContactAddress'
+import Register from './Register'
 
-function ContactForm() {
+function AccountForm() {
   return (
 
 	  <section className="contact-area pt-110 pb-110">
@@ -10,11 +10,11 @@ function ContactForm() {
             <div className="row justify-content-center justify-content-lg-between">
               <div className="col-lg-6 col-md-8 order-2 order-lg-0">
                 <div className="contact-title mb-20">
-                  <h5 className="sub-title">Contact Us</h5>
+                  <h5 className="sub-title">Account Us</h5>
                   <h2 className="title">Let's Talk Question<span>.</span></h2>
                 </div>
                 <div className="contact-wrap-content">
-                  <p>The domestic dog is a doiated dendant of the wolf. The dog derived from an ancient, extinct wolf, and the modern grey.</p>
+                  {/*<p>The domestic dog is a doiated dendant of the wolf. The dog derived from an ancient, extinct wolf, and the modern grey.</p>*/}
                   <form className="contact-form">
                     <div className="form-grp">
                       <label htmlFor="name">Your Name <span>*</span></label>
@@ -37,7 +37,7 @@ function ContactForm() {
                 </div>
               </div>
 
-              <ContactAddress/>
+              <Register/>
 
             </div>
           </div>
@@ -46,4 +46,4 @@ function ContactForm() {
   )
 }
 
-export default ContactForm;
+export default AccountForm;
