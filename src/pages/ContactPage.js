@@ -5,15 +5,16 @@ import ContactForm from '../components/contacts/ContactForm'
 
 
 function ContactPage() {
-  return (
-	  <main>
-	  <ContactBreadCumb/>
-	  <ContactForm/>
-	  <NewsLetter/>
-	  
-	  </main>
+    return (
+        <main>
 
-  )
+            <ContactBreadCumb/>
+            <ContactForm/>
+            <NewsLetter/>
+
+        </main>
+
+    )
 }
 
 export default ContactPage;

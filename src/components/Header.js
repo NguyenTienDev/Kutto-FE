@@ -1,6 +1,8 @@
 import React, {useEffect} from 'react';
 import {Link} from 'react-router-dom'
 import $ from 'jquery';
+import {BiUser} from "react-icons/bi";
+
 
 function Header(){
   const handleActive = (e)=>{
@@ -129,11 +131,22 @@ if ($('.menu-area li.menu-item-has-children ul').length) {
 
                         <li><Link to="/contacts" onClick={(e)=> handleActive(e)}>contacts</Link></li>
 
+                        {/*<li>*/}
+                        {/*  <Link to="/login" onClick={(e)=> handleActive(e)}>Login</Link>*/}
+                        {/*</li>*/}
+
                       </ul>
                     </div>
                     <div className="header-action d-none d-md-block">
                       <ul>
                         <li className="header-search"><a href="/#"><i className="flaticon-search" /></a></li>
+
+                        <li>
+                          <Link to="/login" onClick={(e)=> handleActive(e)}><BiUser style={{fontSize : "30px"}}></BiUser>
+                          </Link>
+                        </li>
+
+
                         <li className="header-shop-cart"><a href="/#"><i className="flaticon-shopping-bag" /><span>2</span></a>
                           <ul className="minicart">
                             <li className="d-flex align-items-start">
@@ -210,7 +223,7 @@ if ($('.menu-area li.menu-item-has-children ul').length) {
               </div>
             </div>
           </div>
-          <div className="header-shape" style={{backgroundImage:"url('img/bg/header_shape.png')"}}/>
+          {/*<div className="header-shape" style={{backgroundImage:"url('img/bg/header_shape.png')"}}/>*/}
         </div>
        
         <div className="search-popup-wrap" tabIndex={-1} role="dialog" aria-hidden="true">

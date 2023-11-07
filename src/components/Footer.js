@@ -82,7 +82,8 @@ function Footer() {
           </div>
         </div>
       </div>
-      <div className="footer-shape"><img src="img/images/footer_shape01.png" alt="" /></div>
+      <div className="footer-shape"><img src="img/images/footer_shape01.png" alt="" />
+      </div>
       <div className="footer-shape shape-two"><img src="img/images/footer_shape02.png" alt="" /></div>
     </div>
     <div className="copyright-area">
