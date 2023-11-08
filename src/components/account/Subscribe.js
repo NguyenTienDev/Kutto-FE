@@ -3,8 +3,8 @@ import {Link} from 'react-router-dom'
 
 function Subscribe(){
 
-	return(
-		 <section className="breadcrumb-area breadcrumb-bg" style={{ backgroundImage:'url("img/bg/breadcrumb_bg2.jpg")'}}>
+  return(
+      <section className="breadcrumb-area breadcrumb-bg" style={{ backgroundImage:'url("img/bg/breadcrumb_bg2.jpg")'}}>
         <div className="container">
           <div className="row">
             <div className="col-12">
@@ -21,7 +21,7 @@ function Subscribe(){
           </div>
         </div>
       </section>
-	)
+  )
 
 }
 
